@@ -21,3 +21,9 @@ console.log(accountEmail);
 console.log(accountPassword);
 console.log(accountCity);
 console.log(accountState);
+
+
+/* 
+Prefer not Use Var for declaring Variables use Let instead
+because of block Scope and functional scope
+*/
