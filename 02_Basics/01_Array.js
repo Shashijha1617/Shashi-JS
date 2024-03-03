@@ -13,6 +13,8 @@ console.log(myArray2[0]);
 console.log(myArray2.length);
 console.log(myArray2.concat(myArray1));
 
+
+console.log(myArray1 + "," + myArray2);
 myArray2.push("Kapil")
 myArray2
 myArray2.pop()
