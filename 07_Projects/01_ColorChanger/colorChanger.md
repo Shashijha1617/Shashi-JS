@@ -2,7 +2,7 @@
 
 ## Project Link
 
-[Click Here](https://github.com/Shashijha1617/Shashi-JS)
+[Click Here](https://github.com/Shashijha1617/Shashi-JS/tree/main/07_Projects/01_ColorChanger)
 
 ## Project 1 (Background Color Changer)
 
