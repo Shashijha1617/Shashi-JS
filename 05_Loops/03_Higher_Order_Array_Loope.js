@@ -55,5 +55,3 @@ map.set("Ca", "Canada");
 for (let [key, value] in map) {
   console.log(key, value);
 }
-
-

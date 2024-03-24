@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: black; color: #fff">
+    <ul class="Language">
+      <li>JavaScript</li>
+    </ul>
+  </body>
+
+  <script>
+    //Create New List
+    //Normal way
+    function addLanguage(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".Language").appendChild(li);
+    }
+    addLanguage("Python");
+    addLanguage("Java");
+    addLanguage("Ruby");
+    addLanguage("Swift");
+    addLanguage("Flutter");
+    addLanguage("C++");
+    addLanguage("C#");
+
+    //Optimized way
+    function addOptiLanguage(langName) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langName));
+      document.querySelector(".Language").appendChild(li);
+    }
+    addOptiLanguage("React");
+
+    //Edit List 1
+    const seconfLang = document.querySelector("li:nth-child(2)");
+    const newLi = document.createElement("li");
+    newLi.textContent = "Mojo";
+    seconfLang.replaceWith(newLi);
+
+    //Edit List 2
+    const ThirdLang = document.querySelector("li:nth-child(3)");
+    ThirdLang.outerHTML = "<li>TypeScript</li>";
+
+
+    //Remove List
+    const lastLang = document.querySelector("li:last-chilt")
+    lastLang.remove-/41 *
+  </script>
+</html>
