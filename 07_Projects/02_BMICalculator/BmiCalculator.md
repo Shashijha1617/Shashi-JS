@@ -2,7 +2,7 @@
 
 ## Project Link
 
-[Click Here](https://github.com/Shashijha1617/Shashi-JS/tree/main/07_Projects/01_ColorChanger)
+[Click Here](https://github.com/Shashijha1617/Shashi-JS/tree/main/07_Projects/02_BMICalculator)
 
 ## Project 2 (BMI Calculator)
 
