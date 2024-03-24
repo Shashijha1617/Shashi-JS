@@ -1,0 +1,32 @@
+.button {
+  height: 60px;
+  width: 60px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border: 3px solid white;
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#gray {
+  background-color: gray;
+}
+#silver {
+  background-color: silver;
+}
+#purple {
+  background-color: purple;
+}
+#goldenrod {
+  background-color: goldenrod;
+}
